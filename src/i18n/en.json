@@ -8,14 +8,14 @@
     "invalidEmail": "Invalid email address."
   },
   "welcome": {
-    "header": "Welcome to Jawwwr."
+    "header": "Welcome to reactNMobX."
   },
   "login": {
-    "header": "login to jawwwr",
+    "header": "login to reactNMobX",
     "button": "login"
   },
   "signup": {
-    "header": "signup to jawwwr",
+    "header": "signup to reactNMobX",
     "button": "signup"
   },
   "secondExampleScreen": {
