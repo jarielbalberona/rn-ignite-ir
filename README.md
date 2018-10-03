@@ -1,5 +1,9 @@
 # reactNMobx
 
+<p align="center">
+  <img src="https://lh4.googleusercontent.com/3riMWm1Dhj9xnGhXKdFdZToUBqssidkbNtcqFk4lnkeGawwh2S8BYTIwAmIn1b3aaUKffbxLQh8q_K-sVA8z=w3360-h1746-rw" alt="boilerplate" width="300px">
+</p>
+
 ## :arrow_up: How to Setup
 
 **Step 1:** git clone this repo:
