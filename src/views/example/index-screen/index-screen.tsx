@@ -52,7 +52,7 @@ export class IndexScreen extends React.Component<IndexScreenProps, {}> {
           <Button
             preset="link"
             onPress={this.drawerScreen}
-            text={"DrawerScreen"}
+            text={"Drawer Screen"}
           />
         </Screen>
       </View>

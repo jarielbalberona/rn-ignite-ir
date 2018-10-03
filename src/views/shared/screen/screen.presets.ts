@@ -10,7 +10,10 @@ const SHAPE: ScrollViewStyle = { backgroundColor: color.background, flex: 1 }
 /**
  * Governs the default child layout.
  */
-const CONTENTS: ViewStyle = { justifyContent: "flex-start", alignItems: "flex-start" }
+const CONTENTS: ViewStyle = {
+  justifyContent: "flex-start",
+  alignItems: "flex-start",
+}
 
 /**
  * Glues the shape & child layout together since there's no restrictions on view style.
@@ -47,7 +50,24 @@ export const presets = {
    * No scrolling. Content is centered on the screen.
    */
   fixedCenter: {
-    nonScroll: { ...DOES_NOT_SCROLL, justifyContent: "center", alignItems: "center" } as ViewStyle,
+    nonScroll: {
+      ...DOES_NOT_SCROLL,
+      justifyContent: "center",
+      alignItems: "center",
+    } as ViewStyle,
+    scrollOuter: NOPE,
+    scrollInner: NOPE,
+  },
+
+  /**
+   * No scrolling. Content is bottom centered on the screen.
+   */
+  fixedButtom: {
+    nonScroll: {
+      ...DOES_NOT_SCROLL,
+      justifyContent: "flex-end",
+      alignItems: "center",
+    } as ViewStyle,
     scrollOuter: NOPE,
     scrollInner: NOPE,
   },

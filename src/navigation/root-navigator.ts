@@ -1,13 +1,13 @@
 import { StackNavigator } from "react-navigation"
-import { ExampleNavigator } from "./example-navigator"
+import { LandingNavigator } from "./landing-navigator"
 
 export const RootNavigator = StackNavigator(
   {
-    exampleStack: { screen: ExampleNavigator },
+    landingStack: { screen: LandingNavigator },
   },
   {
     headerMode: "none",
-    initialRouteName: "exampleStack",
+    initialRouteName: "landingStack",
     navigationOptions: { gesturesEnabled: false },
   },
 )

@@ -7,10 +7,22 @@
   "errors": {
     "invalidEmail": "Invalid email address."
   },
+  "welcome": {
+    "header": "Welcome to Jawwwr."
+  },
+  "login": {
+    "header": "login to jawwwr",
+    "button": "login"
+  },
+  "signup": {
+    "header": "signup to jawwwr",
+    "button": "signup"
+  },
   "secondExampleScreen": {
     "howTo": "HOW TO",
     "title": "What’s In This Stack?",
-    "tagLine": "Congratulations, you’ve got a very advanced React Native app template here.  Take advantage of this boilerplate!",
+    "tagLine":
+      "Congratulations, you’ve got a very advanced React Native app template here.  Take advantage of this boilerplate!",
     "reactotron": "Demo Reactotron"
   },
   "toDoList": {
