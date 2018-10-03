@@ -1,3 +1,28 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
 #
 build/
 .idea
@@ -16,22 +41,16 @@ buck-out/
 \.buckd/
 *.keystore
 
-# VS Code
-.vscode
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
 
-# Cocoapods
-ios/Pods
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
 
-# Secrets
-.env
-fastlane/google-play.json
-
-# Build Artifacts
-*.dSYM.zip
-*.ipa
-fastlane/README.md
-fastlane/report.xml
-index.android.map
-index.ios.map
-/artifacts
-/build
+# Bundle artifact
+*.jsbundle
